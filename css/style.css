@@ -1,0 +1,97 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(header.css);
+@import url(animate.min.css);
+@import url(fullPage.css);
+@import url(style-my.css);
+
+/* общие стили */
+body{
+	margin: 0 auto;
+}
+.container {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+@media (min-width: 1200px){
+	.container {
+		width: 1177px;
+	}
+}
+.row {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+body h1{
+	font-family: 'BloggerSansMedium';
+	font-size: 65px;
+	color: #ffca3a;
+	line-height: 1.2;
+}
+body h2{
+	font-family: 'RobotoMedium';
+	font-size: 36px;
+	color: #342d1a;
+	margin-top: 0;
+}
+body h3, body p, body a{
+	font-family: 'RobotoRegular';
+}
+body h3{
+	font-size: 30px;
+	color: #fff;
+}
+body p{
+	font-size: 18px;
+	line-height: 1.25;
+}
+body a {
+	font-size: 18px;
+	text-decoration: none ;
+}
+#fp-nav.right { width: 1177px; margin: 0 auto; position: absolute; left: 0; right: 0; z-index: 1111; }
+#fp-nav.right ul { float: right; margin-right: 3px; }
+
+@media screen and (max-width:1199px) {
+	#fp-nav.right { width: 970px; }
+}
+@media screen and (max-width:991px) {
+	#fp-nav.right { width: 750px; }
+}
+@media screen and (max-width:768px) {
+	#fp-nav.right { width: 100%; }
+}
+#fp-nav ul li {
+	width: 40px !important;
+	height: 23px !important;
+	margin: 55px 0 !important;
+}
+#fp-nav ul li a {
+	width: 100% !important;
+	height: 100% !important;
+	display: block !important;
+}
+#fp-nav ul li a.active span,
+#fp-nav ul li a span {
+	background: none !important;
+	border: solid 2px #86c8c3 !important;
+	display: block !important;
+	width: 23px !important;
+	height: 100% !important;
+	margin: 0 !important;
+	top: 0 !important;
+	right: 0 !important;
+}
+#fp-nav ul li a.active {
+  background-image: url(../img/scroll-arrow.png) !important;
+  background-position: 0 50% !important;
+  background-repeat: no-repeat !important;
+}
+#fp-nav ul li a.active span {
+	background-color: #ffc112 !important;
+	border-color: #ffc112 !important;
+}
